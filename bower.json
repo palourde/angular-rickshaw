@@ -1,6 +1,6 @@
 {
-  "name": "angular-rickshaw",
-  "version": "0.10.0",
+  "name": "angular-rickshaw-uchiwa",
+  "version": "0.10.1",
   "main": "rickshaw.js",
   "authors": [
     "Nick Ng <ngyewch@gmail.com>"
@@ -16,7 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.3.15",
+    "angular": "~1.4",
     "rickshaw": "~1.5.1",
     "d3": "~3.5.5"
   },
