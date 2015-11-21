@@ -68,7 +68,7 @@ angular.module('angular-rickshaw', [])
               throw "data needs a key or a name";
             }
             if (seriesKey == dataKey) {
-              var properties = ['color', 'name', 'data'];
+              var properties = ['color', 'name', 'data', 'scale'];
               properties.forEach(function(p) {
                 if (d[p]) {
                   s[p] = d[p];
@@ -104,7 +104,6 @@ angular.module('angular-rickshaw', [])
           if (scope.options) {
             for (var key in scope.options) {
               settings[key] = scope.options[key];
-              console.log(key + '=' + scope.options[key]);
             }
             settings.element = graphEl[0];
           }
